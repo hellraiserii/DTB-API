@@ -3,50 +3,42 @@ info:
   title: Customer Site Product Test Management
   version: "1.0.1"
   description: >-
+  
     ## API Customer Site Product Test Management.
-
 
     Esta API está siendo diseñada a partir de la API TMF653 y los siguientes objetos del SID:
     
     - Customer
-
+    
     - Product
-
+    
     - Site
-
+    
     - Resource
-
+    
     - Service
-
+    
     - Test
-      - CustomerSiteProductsTest
-      - ProductTest
-      - ServiceTest
-      - ResourceTest
-
+    
     - TestSpecification
-      - CustomerSiteProductsTestSpecification
-      - ProductTestSpecification
-      - ServiceTestSpecification
-      - ResourceTestSpecification
     
+   
+    Se crea(n) la siguiente(s) ABE (Aggregated business entity) para aplanar jerarquías innecesarias y brindar capacidad de diagnóstico más allá de métricas individuales fuera de rango:
+   
+    - Extienden Test
+   
+        - CustomerSiteProductsTest
+  
+        - DiagnosableTest
 
-    Se crea(n) la siguiente(s) ABE (Aggregated business entity) para aplanar jerarquías innecesarias:
+    - Extienden DiagnosableTest
     
-    - CustomerSiteProductsTest
+        - ProductTest
+  
+        - ServiceTest
+        
+        - ResourceTest
     
-
-    ### Changelog V1.0.1
-    
-    * Se corrigen herencias mal definidas en las entidades que heredan de Test
-    
-    
-    ### Changelog V1.0.0
-
-    * Fork de la versión 5 de Service Test Management de Plataforma de Testing.
-    * Se descartan objetos innecesarios
-    
-
 tags:
   - name: CustomerSiteProductsTest
 

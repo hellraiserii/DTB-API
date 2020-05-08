@@ -168,7 +168,7 @@ paths:
           application/json;charset=utf-8:
             schema:
               $ref: '#/components/schemas/CustomerSiteProductsTest'
-            example:
+            examples:
                 "Ejemplo de Request para el DTB":
                   value:
 

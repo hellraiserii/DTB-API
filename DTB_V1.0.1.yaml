@@ -202,8 +202,8 @@ paths:
                           name: TELEFONÍA
 
                         realizingResourceTest:
-                          - name: eMTA ToIP-Sagemcom_3686-D06EDE8E9B46-??????????
-                            #name: ${tipoEquipo}-${marcaSanitizada}_${modeloSanitizado}-${nroSerie}-${macAddress}
+                          - name: "eMTA ToIP|Sagemcom_3686|D06EDE8E9B46|??????????"
+                            #name: "${tipoEquipo}|${marcaSanitizada}|${modeloSanitizado}|${nroSerie}|${macAddress}"
                             characteristic:
                               - name: macAddress
                                 value: D06EDE8E9B46
@@ -232,8 +232,8 @@ paths:
                           name: TV POR CABLE
 
                         realizingResourceTest:
-                          - name: DECO HD-ARRIS_DCX-3210-M61410IA2425-?????????
-                            #name: ${tipoEquipo}-${marcaSanitizada}_${modeloSanitizado}-${nroSerie}-${macAddress}
+                          - name: "DECO HD|ARRIS_DCX-3210|M61410IA2425|?????????"
+                            #name: "${tipoEquipo}|${marcaSanitizada}|${modeloSanitizado}|${nroSerie}|${macAddress}"
                             characteristic:
                               - name: macAddress
                                 value: "??????????"
@@ -256,8 +256,8 @@ paths:
                           name: INTERNET CABLEMODEM
 
                         realizingResourceTest:
-                          - name: Cablemodem WiFi-Sagemcom_3686-D06EDE8E9B46-??????????
-                            #name: ${tipoEquipo}-${marcaSanitizada}_${modeloSanitizado}-${nroSerie}-${macAddress}
+                          - name: "Cablemodem WiFi|Sagemcom_3686|D06EDE8E9B46|??????????"
+                            #name: "${tipoEquipo}|${marcaSanitizada}|${modeloSanitizado}|${nroSerie}|${macAddress}"
                             characteristic:
                               - name: macAddress
                                 value: D06EDE8E9B46
@@ -411,8 +411,8 @@ paths:
                               reason: "manqueamos en el orquestador"
 
                         realizingResourceTest:
-                          - name: eMTA ToIP-Sagemcom_3686-D06EDE8E9B46-??????????
-                            #name: ${tipoEquipo}-${marcaSanitizada}_${modeloSanitizado}-${nroSerie}-${macAddress}
+                          - name: "eMTA ToIP|Sagemcom_3686|D06EDE8E9B46|??????????"
+                            #name: "${tipoEquipo}|${marcaSanitizada}|${modeloSanitizado}|${nroSerie}|${macAddress}"
                             characteristic:
                               - name: macAddress
                                 value: D06EDE8E9B46
@@ -530,8 +530,8 @@ paths:
                               reason: "manqueamos en el orquestador"
                               
                         realizingResourceTest:
-                          - name: DECO HD-ARRIS_DCX-3210-M61410IA2425-?????????
-                            
+                          - name: "DECO HD|ARRIS_DCX-3210|M61410IA2425|?????????"
+                            #name: "${tipoEquipo}|${marcaSanitizada}|${modeloSanitizado}|${nroSerie}|${macAddress}"
                             characteristic:
                               - name: macAddress
                                 value: "??????????"
@@ -6899,8 +6899,8 @@ paths:
                               reason: "manqueamos en el orquestador"
 
                         realizingResourceTest:
-                          - name: Cablemodem WiFi-Sagemcom_3686-D06EDE8E9B46-??????????
-                          
+                          - name: "Cablemodem WiFi|Sagemcom_3686|D06EDE8E9B46|??????????"
+                            #name: "${tipoEquipo}|${marcaSanitizada}|${modeloSanitizado}|${nroSerie}|${macAddress}"
                             characteristic:
                               - name: macAddress
                                 value: D06EDE8E9B46

@@ -1064,7 +1064,7 @@ paths:
                               - metricName: "CCIP.sesion"
                                 value:
                                   name: "CCIP.sesion"
-                                  valueType: "json ¿stringificado?"
+                                  valueType: "string"
                                   value: {
                                     "Sesion": [
                                       {
@@ -1084,7 +1084,7 @@ paths:
                               - metricName: "HDM.ping"
                                 value:
                                   name: "HDM.ping"
-                                  valueType: "json ¿stringificado?"
+                                  valueType: "string"
                                   value: {
                                     "value": "{
                                       \"failureCount\":0,
@@ -1098,7 +1098,7 @@ paths:
                               - metricName: "NXT.realTime"
                                 value:
                                   name: "NXT.realTime"
-                                  valueType: "json ¿stringificado?"
+                                  valueType: "string"
                                   value: {
                                     "deviceId": "BC2E48F97250",
                                     "transactionId": "268d2d93-21d7-4f95-a145-94c7d51d1f38",
@@ -1572,7 +1572,7 @@ paths:
                               - metricName: "NXT.historico"
                                 value:
                                   name: "NXT.historico"
-                                  valueType: "json ¿stringificado?"
+                                  valueType: "string"
                                   value: {
                                     "deviceId": "087E64959D24",
                                     "summary":    {

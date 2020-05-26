@@ -578,7 +578,7 @@ paths:
                               - metricName: "SCANNET.realTime"
                                 value:
                                   name: "SCANNET.realTime"
-                                  valueType: "json ¿stringificado?"
+                                  valueType: "string"
                                   value: {
                                     "status": 200,
                                     "description": "Todo OK.",

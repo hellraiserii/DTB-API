@@ -6931,14 +6931,14 @@ paths:
                               - metricName:
                                 value:
                                   name: "SCANNET.realtime"
-                                  valueType: "json ¿stringificado?"
-                                  value: {}
+                                  valueType: "string"
+                                  value: ""
                               
                               - metricName:
                                 value:
                                   name: "SCANNET.historico"
-                                  valueType: "json ¿stringificado?"
-                                  value: {}
+                                  valueType: "string"
+                                  value: ""
 
                             testDiagnosis:
                               - name: Diagnóstico Equipo

@@ -821,7 +821,7 @@ paths:
                               - metricName: "SCANNET.historico"
                                 value:
                                   name: "SCANNET.historico"
-                                  valueType: "json ¿stringificado?"
+                                  valueType: "string"
                                   value: {
                                     "status": 200,
                                     "description": "Todo OK.",

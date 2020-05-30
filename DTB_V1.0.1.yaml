@@ -7321,6 +7321,12 @@ paths:
 
 
 components:
+  securitySchemes:
+    basicAuth:     # <-- arbitrary name for the security scheme
+      type: http
+      scheme: basic
+      
+      
   schemas:
   
     Any:
@@ -8262,6 +8268,9 @@ components:
         A test is an entity that exists for a controlled test invocation
         on a service, resource or product. The test is executed according to a schedule and contains service test
         configuration parameters that are to be applied at execution time, and test measures that result.
+        
+
+      
 servers:
   - description: DTB sobre openshift
     url: https://{servicio}-stm-servicetestmanagment-{ambiente}.apps-{cluster}.cloudteco.com.ar/tmf-api/customerSiteProductsTestManagement/v1

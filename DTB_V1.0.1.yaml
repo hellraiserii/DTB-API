@@ -311,7 +311,7 @@ paths:
                             schema:
                                 $ref: '#/components/schemas/Error'
                             examples:
-                                Límite menor  o igual a 0:
+                                Límite menor o igual a 0:
                                     value:
                                         timestamp: '2020-04-17T11:25:04.000+0000'
                                         status: 500
